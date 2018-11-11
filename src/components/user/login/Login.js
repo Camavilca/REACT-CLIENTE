@@ -89,8 +89,11 @@ class Login extends React.Component {
                                 appId="542628002825708"
                                 autoLoad={true}
                                 fields="name,email,picture"
-                                
                                 callback={responseFacebook} />
+                         <GoogleLogin
+                            clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
+                            buttonText="Login"
+                            />
                       </div>
                     </form>
                   </CardBody>
